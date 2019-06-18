@@ -224,6 +224,7 @@ h3 {text-align: center;}
  {
   body {background:}
   #contenedor {flex-wrap: wrap;}
+  .header {flex-wrap: wrap;}
 
 }
 /*S*/
@@ -232,6 +233,7 @@ h3 {text-align: center;}
   body {background:}
   #contenedor{flex-wrap: wrap;}
   .footer {flex-direction:column}
+  .header {flex-wrap: wrap;}
 }
 
 

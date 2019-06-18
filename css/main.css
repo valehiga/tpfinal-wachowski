@@ -178,6 +178,9 @@ h1,h2,.form-group, p,h3, button { font-family: 'gilbert-color-bold-preview5'; }
     color:#000000;  
 }
 .baner {margin-top: 20px;}
+.baner1 {margin-left: 100px;margin-right: 100px;}
+.baner2 {margin-left: 100px;margin-right: 100px;}
+.baner5 {margin-left: 100px;margin-right: 100px;}
 h2 {text-align: center;}
 .enviar {
   color: black;

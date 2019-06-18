@@ -209,7 +209,9 @@ h3 {text-align: center;}
           margin-bottom: 10px;}
 .fondo {background-image: url('bandera.png');}          
 .ayuda {margin-bottom: 15px;
-        text-align: center;}          
+        text-align: center;}     
+
+.enviar {background-color: #0066ff}             
 
 /*XXL*/
 @media screen and (min-width: 1201px) and (max-width: 1200px) {

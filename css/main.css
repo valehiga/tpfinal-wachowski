@@ -102,6 +102,40 @@ textarea {
   75%  {background-color:green; left:200px; top:200px;}
   100% {background-color:white; left:200px; top:200px;}
 }
+/*@keyframes red {
+  0% {transform: scale(0);opacity: 0;}
+  50% {transform: scale(1);}
+  100% {transform: scale(0);opacity: 1;transform: rotate(2turn);}
+}
+
+@keyframes blue {
+  0%{opacity: 0}
+  100% {opacity:1; transform: rotate(1turn);}
+  */
+@keyframes film {
+    0% {opacity: 0}
+    100% {opacity: 1;}
+}
+@keyframes blue {
+    0% {transform: translate(900px);}
+    100% {transform: translate(-50px);}
+}
+.title {animation-name: film;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in-out;}
+.blue{ 
+  width: 50px;
+  bottom: 54%;
+  right: 90%;
+  animation-name: blue;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  } 
+
 .header {
         animation-name: letras;
         animation-duration: 3s;
@@ -113,9 +147,10 @@ textarea {
         text-align: center;
 }
 
-h1,h2,.form-group, p,h3 { font-family: 'gilbert-color-bold-preview5'; }
+
+h1,h2,.form-group, p,h3, button { font-family: 'gilbert-color-bold-preview5'; }
 .nav {  font-family: 'gilbert-color-bold-preview5';
-        height: 50px;
+        height: 40px;
         text-align: center;}
 .nav {background-color:#212121;
     color:#FFFFFF;
@@ -142,8 +177,26 @@ h1,h2,.form-group, p,h3 { font-family: 'gilbert-color-bold-preview5'; }
     background-color:#FFFFFF;
     color:#000000;  
 }
-.baner {margin-top: 100px;}
+.baner {margin-top: 20px;}
 h2 {text-align: center;}
+.enviar {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 15px;
+  margin-top: 13px;
+  display: inline-block;
+  border-radius: 5px;
+  transition-duration: 1s, 2s; 
+  transition-property: background,padding;
+
+}
+
+.enviar a:hover {
+  background: black;
+  padding-right:83.3%;
+  color: white; 
+}
 
 .footer {background-color: #0D0D19;
         padding: 10px;
@@ -152,8 +205,34 @@ h2 {text-align: center;}
 .title{text-align: center;}
 h3 {text-align: center;}
 .jumbotron {text-align: center;}
+.enviar {color: blue;
+          margin-bottom: 10px;}
+.fondo {background-image: url('bandera.png');}          
+.ayuda {margin-bottom: 15px;
+        text-align: center;}          
 
+/*XXL*/
+@media screen and (min-width: 1201px) and (max-width: 1200px) {
+  body {background:}
+}
+/*L*/
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  body {background: }
+}
+/*M*/
+@media (min-width: 600px)  and (max-width: 990px)
+ {
+  body {background:}
+  #contenedor {flex-wrap: wrap;}
 
+}
+/*S*/
+@media (min-width: 0px)  and (max-width: 599px)
+ {
+  body {background:}
+  #contenedor{flex-wrap: wrap;}
+  .footer {flex-direction:column}
+}
 
 
 

@@ -222,7 +222,8 @@ h3 {text-align: center;}
 }
 /*L*/
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-  body {background: }
+  body {background:  }
+  .header {flex-wrap: wrap;}
 }
 /*M*/
 @media (min-width: 600px)  and (max-width: 990px)
